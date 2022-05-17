@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Lato:ital,wght@1,400&family=Lustria&display=swap');
+h1 {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+body {
+    font-family: 'Lustria', serif;
+    background-color: rgb(252, 240, 200);
+}
+
+a {
+    color: crimson
+}
+
+#details {
+    font-size: small;
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+header {
+    position: relative;
+    align-items: center;
+    background-color: rgb(145, 31, 39);
+    padding-bottom: 50px;
+    color: rgb(252, 240, 200);
+}
+
+main {
+    width: 90%;
+    padding: 40px 40px 40px 40px
+}
+
+.review-details {
+    background-color: rgb(250, 206, 127);
+    padding-top: 30px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+nav {
+    background-color: rgb(99, 10, 16);
+    border: 1px solid rgb(173, 40, 49);
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+}
+
+ul li {
+    float: left;
+    border-radius: 5px;
+    margin-right: 30px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(145, 31, 39);
+}
+
+ul li:hover {
+    background-color: crimson
+}
+
+ul li a {
+    color: rgb(252, 240, 200);
+    text-decoration: none;
+}
